@@ -1,0 +1,38 @@
+# template
+
+# [[event]]
+# name = ""
+# description = "some event description"
+# image = "/img/events/event.jpg"   # dimensions: 3000x2000
+# link = "" # if we want to have separate page for that
+
+
+[[event]]
+name = "WDI"
+description = "Trzydniowy wyjazd integracyjny dla wszystkich osób rozpoczynających studia na naszym Wydziale. Wierzymy, że to najlepszy sposób na poznanie osób, z którymi spędzać będziemy kolejne lata. Wyjazd jest też okazją do rozmowy z osobami, które studiują już od dłuższego czasu i mogą podzielić się wieloma cennymi radami."
+image = "/img/events/wdi.jpg"
+
+[[event]]
+name = "Rajd"
+description = "Trzydniowy wyjazd integracyjny dla całej społeczności naszego Wydziału. Jest ostatnią okazją do odpoczynku przed sesją. Czas spędzamy głównie na aktywnościach na zewnatrz a podczas wieczornej Karczmy dołączają do nas Władze oraz Pracownicy Wydziału. Zdecydowanie najbardziej wyczekiwany wyjazd w ciagu roku."
+image = "/img/events/rajd.jpg"
+
+[[event]]
+name = "Bal"
+description = "Uroczysty bal dla całej społeczności naszego Wydziału. Na jeden wieczór w roku wszyscy wyciągają najbardziej eleganckie garnitury i suknie, by bawić się do samego rana. Jego nieodłączną częścią jest gala wręczenia studenckich nagród dla Najlepszych Dydaktyków, by docenić ich ciężką pracę."
+image = "/img/events/bal.jpg"
+
+[[event]]
+name = "Puchar"
+description = "Trzydniowy, zimowy wyjazd integracyjny dla Studentek i Studentów naszego Wydziału. Czas spędzamy głównie na stoku, ale w drodze powrotnej także chętnie zahaczamy o termy. Głównym punktem programu są zawody o Puchar Dziekana Wydziału Informatyki. Oprócz tego, jak zawsze, jest świetną okazją do integracji w wydziałowym gronie."
+image = "/img/events/puchar.jpg"
+
+[[event]]
+name = "kaWIarenka"
+description = "Naszą najważniejszą rolą jest reprezentacja wszystkich Studentek i Studentów naszego Wydziału. Chcemy stwarzaćm dodatkowe okazje do rozmów, poza tymi codziennymi w salach zajęciowych, czy na korytarzach. Przy okazji każda osoba może poczęstować się ciastkiem, czy wypić ciepłą herbatę lub kawę w drodze na zajęcia. KaWIarenkę organizujkemy cyklicznie, kilka razy w ciągu roku."
+image = "/img/events/kawiarenka.jpg"
+
+[[event]]
+name = "poWItanie"
+description = "Dobrze wiemy jak trudne potrafią być początki w nowym środowisku Uczelni. Chcemy by były one możliwie bezbolesne. PoWItanie to spotkanie w klubie w okolicach Miasteczka Studenckiego, na którym w kilku prezentacjach przybliżamy podstawy studiowania. Opowiadamy o tym kim są Panie z Dziekanatu, jak przeżyć pierwszy semestr i pierwszą sesję, w jakich można działać organiazacjach studenckich, czy jak przeżyć w Krakowie."
+image = "/img/events/powitanie.jpg"

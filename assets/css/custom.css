@@ -52,8 +52,252 @@
     font-weight: 400;
 }
 
+:root {
+    --body-padding: 32px
+}
+
+
+.lg\:px-32 {
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding)
+}
+
+.lg\:px-8 {
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding)
+}
 
 html {
     /* font-family: 'Inter'; */
     font-family: 'DM Mono';
 }
+
+h1 {
+    margin-top: 64px !important
+}
+
+/* a {
+    text-decoration: underline !important;
+} */
+
+.team-section {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.team-section .team-member {
+    width: 25%;
+    padding: 10px;
+}
+
+.team-section .team-member-head {
+    width: 30%;
+    padding: 10px;
+}
+
+
+.team-section .image-description .name {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+.team-section .image-description .function {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.team-container h2 {
+    margin: 0;
+}
+
+.team-container {
+    margin-bottom: 100px;
+}
+
+.events-container {
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.event-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10 0 10 0;
+}
+
+.event-item .event-image {
+    flex: 50%;
+}
+
+.event-even .event-image {
+    order: 0;    /* In even rows, image will be on the right */
+    padding-right: 10px;
+}
+.event-odd .event-image {
+    order: 1;   /* In odd rows, image will be on the left */
+    padding-left: 10px;
+}
+
+.event-even .event-description {
+    padding-left: 40px;
+}
+.event-odd .event-description {
+    padding-right: 40px;
+}
+
+.event-description h2 {
+    /* line-height: ; */
+    margin-bottom: 10px;
+}
+
+.event-description {
+    /* padding-top: 20px; */
+
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: left;
+}
+
+
+.event-link {
+    display: block;
+    margin-top: 1em;
+    /* Style your 'read more' link as needed */
+}
+
+.contact-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.contact-container .contact-text {
+    padding: 30px
+}
+
+.contact-container .contact-map {
+    width: 600px;
+    height: 400px;
+}
+
+.contact-container {
+    text-align: left;
+}
+.contact-container h2 {
+    margin-bottom: 10px;
+}
+
+/* .m-auto {
+    margin: 0;
+    width: 100vw;
+    padding: 0;
+    align-items: center;
+} */
+
+
+@media (max-width: 640px) {
+    .team-section .team-member {
+      width: 100%;
+    }
+
+    .team-section .team-member-head {
+      width: 100%;
+    }
+  }
+
+@media (min-width: 640px) {
+    .team-section .team-member {
+      width: 30%;
+    }
+
+    .team-section .team-member-head {
+      width: 30%;
+    }
+  }
+
+  @media (min-width: 853px) {
+    .team-section .team-member {
+      width: 25%;
+    }
+
+    .team-section .team-member-head {
+      width: 30%;
+    }
+
+  }
+
+  @media (max-width: 1024px) {
+    .event-item {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .event-description, .event-image {
+        flex: 100%
+    }
+
+    .event-odd .event-description, .event-even .event-description, .event-odd .event-image, .event-even .event-image {
+        order: 0;
+        padding: 0 10px;
+    }
+
+    .event-odd .event-image, .event-even .event-image {
+        /* padding: 100px; */
+        width: 50%;
+    }
+
+    .event-description h2 {
+        /* padding: 10px; */
+        margin: 0
+    }
+
+    .event-description {
+        padding: 0;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-container .contact-map {
+        width: 100%;
+    }
+    .contact-container .contact-text {
+        text-align: center;
+    }
+  }
+
+  /* @media (min-width: 1024px) {
+    .team-section .team-member {
+      width: 30%;
+    }
+
+    .team-section .team-member-head {
+      width: 30%;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .team-section .team-member {
+      width: 25%;
+    }
+
+    .team-section .team-member-head {
+      width: 30%;
+    }
+  } */
+
+  @media (min-width: 1536px) {
+    .team-section .team-member {
+      width: 16%;
+    }
+
+    .team-section .team-member-head {
+      width: 30%;
+    }
+  }

@@ -1,0 +1,50 @@
+<div class="team-container">
+    <div class="team-section">
+        {{ range .Site.Data.team.team_official_head }}
+        <div class="team-member-head">
+            <img src="{{ .image }}" alt="{{ (index .description 0).name }}" class="medium-zoom-image">
+            <div class="image-description">
+                <p class="name">{{(index .description 0).name}}</p>
+                {{ with (index .description 0).function1 }}
+                <p class="function">{{ . }}</p>
+                {{ end }}
+                {{ with (index .description 0).function2 }}
+                <p class="function">{{ . }}</p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+        {{ range .Site.Data.team.team_official }}
+        <div class="team-member">
+            <img src="{{ .image }}" alt="{{ (index .description 0).name }}" class="medium-zoom-image">
+            <div class="image-description">
+                <p class="name">{{(index .description 0).name}}</p>
+                {{ with (index .description 0).function1 }}
+                <p class="function">{{ . }}</p>
+                {{ end }}
+                {{ with (index .description 0).function2 }}
+                <p class="function">{{ . }}</p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+
+    <h2> członkowie nieoficjalni </h2>
+    <div class="team-section">
+        {{ range .Site.Data.team.team_unofficial }}
+        <div class="team-member">
+            <img src="{{ .image }}" alt="{{ (index .description 0).name }}" class="medium-zoom-image">
+            <div class="image-description">
+                <p class="name">{{(index .description 0).name}}</p>
+                {{ with (index .description 0).function1 }}
+                <p class="function">{{ . }}</p>
+                {{ end }}
+                {{ with (index .description 0).function2 }}
+                <p class="function">{{ . }}</p>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>

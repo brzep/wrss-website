@@ -1,0 +1,18 @@
+<div class="events-container">
+    <!-- range $index, $element: iterate over the elements and have access to the element's index -->
+    {{ range $index, $element := .Site.Data.events.event }}
+    <div class="event-item {{ if eq (mod $index 2) 0 }}event-even{{ else }}event-odd{{ end }}">
+        <div class="event-image">
+            <img src="{{ $element.image }}" alt="Event Image">
+        </div>
+        <div class="event-description">
+            <h2>{{ $element.name }}</h2>
+            {{ $element.description }}
+            <!-- Check if the 'link' field exists in the data file before trying to use it -->
+            {{ with $element.link }}
+            <a href="{{ . }}" class="event-link">czytaj więcej</a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>

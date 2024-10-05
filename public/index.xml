@@ -2,20 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wydziałowa rada samorządu studentów wydziału informatyki agh on wrss_wi</title>
-    <link>http://localhost:1313/</link>
+    <link>https://wrss.informatyka.agh.edu.pl/</link>
     <description>Recent content in wydziałowa rada samorządu studentów wydziału informatyki agh on wrss_wi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>wrss.wi@samorzad.agh.edu.pl (wrss_wi)</managingEditor>
     <webMaster>wrss.wi@samorzad.agh.edu.pl (wrss_wi)</webMaster>
     <copyright>© 2024 wrss_wi</copyright>
-    <lastBuildDate>Wed, 02 Oct 2024 22:18:52 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Oct 2024 22:18:52 +0200</lastBuildDate><atom:link href="https://wrss.informatyka.agh.edu.pl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Wed, 02 Oct 2024 22:18:52 +0200</pubDate>
+      <title>dokumenty</title>
+      <link>https://wrss.informatyka.agh.edu.pl/documents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>wrss.wi@samorzad.agh.edu.pl (wrss_wi)</author>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://wrss.informatyka.agh.edu.pl/documents/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>przydatne linki</title>
+      <link>https://wrss.informatyka.agh.edu.pl/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>wrss.wi@samorzad.agh.edu.pl (wrss_wi)</author>
+      <guid>https://wrss.informatyka.agh.edu.pl/links/</guid>
       <description></description>
       
     </item>

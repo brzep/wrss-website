@@ -1,0 +1,104 @@
+[[team_official_head]]
+description = [
+    { name = "Bartosz Rzepa", function1 = "przewodniczący", function2 = "członek kolegium wydziału" },
+]
+image = "/img/team/brzepa.jpg"
+
+[[team_official_head]]
+description = [
+    { name = "Przemysław Popowski", function1 = "zastępca przewodniczącego", function2 = "członek kolegium wydziału" },
+]
+image = "/img/team/brzepa.jpg"
+
+[[team_official_head]]
+description = [{ name = "Zuzanna Gomuła", function1 = "członkini senatu agh" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [
+    { name = "Damian Chłus", function1 = "członek odwoławczej komisji dyscyplinarnej dla studentów" },
+]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Ida Ciepiela" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [
+    { name = "Michał Dobranowski", function1 = "delegat do urss agh" },
+]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Wiktor Gut" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Szymon Kłodowski" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Dominik Kozimor" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Adrian Krawczyk" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Barbara Kulawska" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Jagoda Kurosad" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Zofia Lenart" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Filip Malejki" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Mateusz Pawliczek" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [
+    { name = "Jerzy Wilczek", function1 = "członek komisji dyscyplinarnej dla studentów" },
+]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Michał Wójcik" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [{ name = "Aleksandra Zwonek" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_official]]
+description = [
+    { name = "Kinga Żarska", function1 = "wsdd", function2 = "członiki kolegium wydziału" },
+]
+image = "/img/team/brzepa.jpg"
+
+
+[[team_unofficial]]
+description = [{ name = "Iga Antonik" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_unofficial]]
+description = [{ name = "Mikołaj Pajor" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_unofficial]]
+description = [{ name = "Helena Szczepanowska" }]
+image = "/img/team/brzepa.jpg"
+
+[[team_unofficial]]
+description = [{ name = "Szymon Wójcik" }]
+image = "/img/team/brzepa.jpg"
