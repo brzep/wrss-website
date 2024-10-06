@@ -9,8 +9,8 @@ displayName = "EN"
 isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
-logo = "./wrss-wi-logo-white.png"
-secondaryLogo = "./wrss-wi-logo-black.png"
+logo = "wrss-wi-logo-white.png"
+secondaryLogo = "wrss-wi-logo-black.png"
 # description = "My awesome website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
